@@ -5,11 +5,19 @@
 // if ("0") {
 //   alert( 'Hello' );
 // }
+//sim, porque não é uma string vazia
 
 // The name of JavaScript
 // Using the if..else construct, write the code which asks: ‘What is the “official” name of JavaScript?’
 // If the visitor enters “ECMAScript”, then output “Right!”, otherwise – output: “You don’t know? ECMAScript!”
 
+// let officialName = prompt("What is the “official” name of JavaScript?", "");
+
+// if (officialName === "ECMAScript") {
+//     alert("Right!");
+// } else {
+//     alert("You don't know? ECMAScript!");
+// }
 
 // Show the sign
 // Using if..else, write the code which gets a number via prompt and then shows in alert:
@@ -18,15 +26,30 @@
 // 0, if equals zero.
 // In this task we assume that the input is always a number.
 
+// let number = +prompt("Enter a number","");
+
+// if (number > 1){
+//     alert("The value is greater than zero");
+// } else if (number === 0){
+//     alert("The number is zero")
+// }else {
+//     alert("The number is less than zero")
+// }
+
 
 // Rewrite 'if' into '?'
 // Rewrite this if using the conditional operator '?':
 // let result;
+
 // if (a + b < 4) {
-//   result = 'Below';
+//     result = 'Below';
 // } else {
-//   result = 'Over';
+//     result = 'Over';
 // }
+
+// let a = 1;
+// let b = 1;
+// let result = (a + b < 4) ? "Below": "Over";
 
 
 // Rewrite 'if..else' into '?'
