@@ -6,6 +6,7 @@
 // while (i) {
 //   alert( i-- );
 // }
+//Resposta: 1
 
 // Which values does the while loop show?
 // For every loop iteration, write down which value it outputs and then compare it with the solution.
@@ -16,6 +17,7 @@
 // The postfix form i++
 // let i = 0;
 // while (i++ < 5) alert( i );
+//Resposta: 1 a 4 ; 1 a 5
 
 // Which values get shown by the "for" loop?
 // For each loop write down which values it is going to show. Then compare with the answer.
@@ -24,15 +26,28 @@
 // for (let i = 0; i < 5; i++) alert( i );
 // The prefix form:
 // for (let i = 0; i < 5; ++i) alert( i );
+//Resposta: 0 a 4 em ambos
 
 // Output even numbers in the loop
 // Use the for loop to output even numbers from 2 to 10.
 // Run the demo
+//Resposta:
+// for (let i = 2; i <= 10; i++){
+//     if (i % 2 === 0){
+//         alert(i);
+//     }
+// }
 
 // Replace "for" with "while"
 // Rewrite the code changing the for loop to while without altering its behavior (the output should stay same).
 // for (let i = 0; i < 3; i++) {
 //   alert( `number ${i}!` );
+// }
+//Resposta:
+// let i = 0;
+// while (i < 3){
+//     alert (`number $(i)!`);
+//     i++;
 // }
 
 // Repeat until the input is correct
@@ -40,6 +55,11 @@
 // The loop must ask for a number until either the visitor enters a number greater than 100 or cancels the input/enters an empty line.
 // Here we can assume that the visitor only inputs numbers. There’s no need to implement a special handling for a non-numeric input in this task.
 // Run the demo
+//Resposta:
+// let number;
+// do {
+//     number = prompt("Digite um número maior do que 100", 0);
+// } while (number <= 100 || number);
 
 // Output prime numbers
 // An integer number greater than 1 is called a prime if it cannot be divided without a remainder by anything except 1 and itself.
@@ -48,3 +68,12 @@
 // Write the code which outputs prime numbers in the interval from 2 to n.
 // For n = 10 the result will be 2,3,5,7.
 // P.S. The code should work for any n, not be hard-tuned for any fixed value.
+// //Resposta: 
+// let n = 10;
+// nextPrime:
+// for (let i = 2; i <= n; i++){
+//     for (let j = 2; j < i, j++){
+//         if (i % j === 0) continue nextPrime
+//     }
+//     alert (`$(i) é um número primo`);
+// }
