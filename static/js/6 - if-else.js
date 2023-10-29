@@ -5,19 +5,18 @@
 // if ("0") {
 //   alert( 'Hello' );
 // }
-//sim, porque não é uma string vazia
+//Resposta: sim, porque não é uma string vazia
 
 // The name of JavaScript
 // Using the if..else construct, write the code which asks: ‘What is the “official” name of JavaScript?’
 // If the visitor enters “ECMAScript”, then output “Right!”, otherwise – output: “You don’t know? ECMAScript!”
-
+// Resposta:
 // let officialName = prompt("What is the “official” name of JavaScript?", "");
-
 // if (officialName === "ECMAScript") {
 //     alert("Right!");
-// } else {
-//     alert("You don't know? ECMAScript!");
-// }
+//  } else {
+//      alert("You don't know? ECMAScript!");
+//  }
 
 // Show the sign
 // Using if..else, write the code which gets a number via prompt and then shows in alert:
@@ -25,15 +24,14 @@
 // -1, if less than zero,
 // 0, if equals zero.
 // In this task we assume that the input is always a number.
-
-// let number = +prompt("Enter a number","");
-
-// if (number > 1){
+// Resposta:
+// let number = +prompt("Type a number","");
+//  if (number > 1){
 //     alert("The value is greater than zero");
 // } else if (number === 0){
-//     alert("The number is zero")
+//      alert("The number is zero")
 // }else {
-//     alert("The number is less than zero")
+//      alert("The number is less than zero")
 // }
 
 
@@ -46,7 +44,7 @@
 // } else {
 //     result = 'Over';
 // }
-
+// Resposta:
 // let a = 1;
 // let b = 1;
 // let result = (a + b < 4) ? "Below": "Over";
@@ -59,9 +57,15 @@
 // if (login == 'Employee') {
 //   message = 'Hello';
 // } else if (login == 'Director') {
-//   message = 'Greetings';
+//    message = 'Greetings';
 // } else if (login == '') {
-//   message = 'No login';
+//    message = 'No login';
 // } else {
-//   message = '';
+//    message = '';
 // }
+//Resposta:
+// let message = (login === "Employee") ? "Hello":
+//     (login === "Director") ? "Greetings":
+//     (login === "") ? "No login":
+//     "";
+
