@@ -5,20 +5,20 @@
 // Assign the value "John" to name.
 // Copy the value from name to admin.
 // Show the value of admin using alert (must output “John”).
-
-let admin;
-let name;
-name = "John";
-admin = name;
-alert(admin);
+//Resposta: 
+// let admin;
+// let name;
+// name = "John";
+// admin = name;
+// alert(admin);
 
 // Giving the right name
 // Create a variable with the name of our planet. How would you name such a variable?
 // Create a variable to store the name of a current visitor to a website. How would you name that variable?
-
-let ourPlanetName =  "Earth";
-let currentVisitor = "Mary";
-let currentUserName = "John";
+//Resposta: 
+// let ourPlanetName =  "Earth";
+// let currentVisitor = "Mary";
+// let currentUserName = "John";
 
 
 // Uppercase const?
@@ -30,5 +30,6 @@ let currentUserName = "John";
 // Would it be right to use upper case for birthday? For age? Or even for both?
 // const BIRTHDAY = '18.04.1982'; // make birthday uppercase?
 // const AGE = someCode(BIRTHDAY); // make age uppercase?
-const BIRTHDAY = '08.03.1992';
-const age = someCode (BIRTHDAY);
+//Resposta: 
+// const BIRTHDAY = '08.03.1992';
+// const age = someCode (BIRTHDAY);

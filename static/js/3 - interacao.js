@@ -10,5 +10,6 @@
 // let isBoss = confirm("Are you the boss?");
 // alert(isBoss);
 
-let name = prompt("What's your name?");
-alert(`Welcome ${name}!`);
+// //Resposta:
+// let name = prompt("What's your name?");
+// alert(`Welcome ${name}!`);
