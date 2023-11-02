@@ -9,6 +9,7 @@
 // shoppingCart.push("Banana");
 // // what's in fruits?
 // alert( fruits.length ); // ?
+//Resposta: 4
 
 
 // Array operations.
@@ -24,6 +25,14 @@
 // Jazz, Classics, Rock-n-Roll
 // Classics, Rock-n-Roll
 // Rap, Reggae, Classics, Rock-n-Roll
+//Resposta:
+// let styles = ["Jazz", "Blues"];
+// styles.push("Rock-n-Roll");
+// styles[Math.floor((styles.length - 1) / 2)] ="Classics";
+// styles.shift();
+// alert(styles);
+// styles.unshift("Rap", "Reggae");
+// alert(styles)
 
 
 
@@ -34,6 +43,7 @@
 //   alert( this );
 // });
 // arr[2](); // ?
+//Resposta: A função () está na posição 2 do arr.
 
 
 // Sum input numbers
@@ -43,7 +53,26 @@
 // Calculates and returns the sum of array items.
 // P.S. A zero 0 is a valid number, please don’t stop the input on zero.
 // Run the demo
-
+//Resposta:
+// /**
+//  * A funnção faz a soma dos números digitados
+//  * @returns 
+//  */
+// function sumInput (){
+//     let numbers = [];
+//     while (true){
+//         let value = prompt("Digite um número:", "");
+//         if (value === "" || value === null || !isFinite(value))
+//             break;
+//         numbers.push(+value);
+//     }
+//     let sum = 0;
+//     for (let number of numbers){
+//         sum += number;
+//     }
+//     return sum;
+// }
+// alert(sumInput());
 
 
 // A maximal subarray
@@ -61,3 +90,4 @@
 // getMaxSubSum([-1, -2, -3]) = 0
 // Please try to think of a fast solution: O(n2) or even O(n) if you can.
 // Open a sandbox with tests.
+
