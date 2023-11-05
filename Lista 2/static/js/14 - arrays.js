@@ -90,4 +90,42 @@
 // getMaxSubSum([-1, -2, -3]) = 0
 // Please try to think of a fast solution: O(n2) or even O(n) if you can.
 // Open a sandbox with tests.
+//Resposta:
+
+// function getMaxSubSum(arr){
+//     let maxSum = 0;
+//     for (let i = 0; i < arr.lenght; i++) {
+//         let sumFixedStart = 0;
+//         for (let j = i; j < arr.lenght; j++) {
+//             sumFixedStart += arr[j];
+//             maxSum = Math.max(maxSum, sumFixedStart);
+//         }
+//     }
+//     return maxSum;
+// }
+
+//alert(getMaxSubSum([-1, 2, 3, -9]));
+//alert(getMaxSubSum([-1, 2, 3, -9, 11]));
+// alert(getMaxSubSum([-2, -1, 1, 2]));
+// alert(getMaxSubSum([1, 2, 3]));
+// alert(getMaxSubSum([100, -9, 2, -3, 5]));
+
+
+//Segunda resolução
+// function getMaxSubSum(arr){
+//     let maxSum = 0;
+//     let partialSum = 0;
+//     for (let item of arr){
+//         partialSum += item;
+//         maxSum = Math.max(maxSum, partialSum);
+//         if (partialSum < 0) partialSum = 0;
+//     }
+//     return maxSum;
+// }
+// alert(getMaxSubSum([-1, 2, 3, -9]));
+// alert(getMaxSubSum([-1, 2, 3, -9, 11]));
+// alert(getMaxSubSum([-2, -1, 1, 2]));
+// alert(getMaxSubSum([1, 2, 3]));
+// alert(getMaxSubSum([100, -9, 2, -3, 5]));
+
 
