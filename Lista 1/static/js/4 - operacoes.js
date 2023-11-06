@@ -1,8 +1,6 @@
 //Operações: https://javascript.info/operators#tasks
 
 // The postfix and prefix forms
-// // What are the final values of all variables a, b, c and d after the code below?
-// let a = 1, b = 1;
 //Resposta:
 // let c = ++a;
 // //c = 2; a = 2;
@@ -10,12 +8,9 @@
 // //d = 1; b = 2;
 
 
-// // Assignment result
-// // What are the values of a and x after the code below?
-// let a = 2;
-// let x = 1 + (a *= 2)
+//Assignment result
 //Resposta:
-// //a = 4; x = 5;
+//a = 4; x = 5;
 
 
 // Type conversions
@@ -50,17 +45,9 @@
 // " \t \n" - 2;
 // -2
 
-// // Think well, write down and then compare with the answer.
 
-
-// // Fix the addition
-// // Here’s a code that asks the user for two numbers and shows their sum.
-// // It works incorrectly. The output in the example below is 12 (for default prompt values).
-// // Why? Fix it. The result should be 3.
-// let a = prompt("First number?", 1);
-// let b = prompt("Second number?", 2);
-// alert(a + b);
-// //Resposta:
+// Fix the addition
+// Resposta:
 // let aa = +prompt("First number?", 1);
 // let bb = +prompt("Second number?", 2);
 // alert(aa + bb);
