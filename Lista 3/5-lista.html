@@ -30,8 +30,33 @@
             {id: 4, name: "Matheus", age: 19, sex: "M"},
             {id: 5, name: "Antônio", age: 40, sex: "M"},
             ];
+        
+        // Selecionando a tabela
+        const $tbody = $("#peopleTable tbody");
 
+        /**
+         * Retorna o sexo da pessoa formatado
+         * @param {string} sex
+         * @returns {string}
+         */
+        const formatSex = sex => sex === "M" ? "Masculino" : "Feminino";
+
+        //Criando as linhas com os dados
+
+        $.each(people, (_, person) => {
+            //Criando a linha com os dados da pessoa
+            const $row = $(`<tr>
+                <td>${person.id}</td>
+                <td>${person.name}</td>
+                <td>${person.age}</td>
+                <td>${formatSex(person.sex)}<td>
+                </tr>`);
             
+                //Inserir a linha na tabela
+                $tbody.append($row);
+        })
+
+
         })
         
     </script>
